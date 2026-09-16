@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | The Daily Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="masthead">
+            <img class="logo" src="IMAGES/Coffee Cafe Logo.png" alt="The Daily Cafe logo">
+            <div class="masthead-text">
+                <span class="masthead-title">The Daily Cafe</span>
+                <span class="masthead-tagline">A cozy cafe in town</span>
+            </div>
+        </div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-overlay">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <nav id="site-nav-overlay" class="nav-overlay">
+        <button class="nav-overlay-close" aria-label="Close menu">&times;</button>
+        <ul class="nav-overlay-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about us.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Gallery.html" aria-current="page">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+        </ul>
+        
+    </nav>
+
+    <main>
+        <div class="page-intro">
+            <h1>Gallery</h1>
+        </div>
+
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+                <img src="IMAGES/coffee.jpg" alt="Coffee">
+                <figcaption>Coffee</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMAGES/Chocolate Shakes.jpg" alt="Chocolate shakes">
+                <figcaption>Chocolate Shakes</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMAGES/crossiant.jpg" alt="Croissant">
+                <figcaption>Croissant</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMAGES/img1.jpg" alt="Chocolate cake">
+                <figcaption>Chocolate Cake</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMAGES/img3.jpg" alt="Macaroons">
+                <figcaption>Macaroons</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="IMAGES/img4.jpg" alt="Waffles">
+                <figcaption>Waffles</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer class="site-footer">&copy; ST10527760</footer>
+    <script src="JAVA SCRIPT/nav.js"></script>
+</body>
+</html>
