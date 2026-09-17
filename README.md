@@ -39,3 +39,16 @@ Part 1 Details
   -  Built a consistent header and navigation bar
 
 Changelog
+
+The Daily Cafe website went from a rough first draft to a much more polished build. The big-picture changes:
+Styling overhaul: inline style attributes and a plain red background were replaced with a real stylesheet (CSS/styles.css), a charcoal/gold theme, and Google Fonts.
+Structure fixes: added proper <meta> tags, a consistent header, a mobile nav toggle, and an aria-current marker on the active nav link — plus a new "Enquiry" link added to every page's nav.
+Cleaned-up markup: fixed broken tags across the site lists on Services instead of sitting above them).
+Consistency fixes: link/file casing normalized and the footer typo &copy;ST10527760 corrected to include a space.
+Content improvements per page:
+Home: dropped the logo-as-background, simplified the hero heading.
+About us: reorganized into three clear sections.
+Services: proper headings above correctly nested lists.
+Gallery: moved to a responsive grid with captions on all six photos 
+Contact us: expanded a broken placeholder line into a full "Get in touch" section with clickable phone and email links.
+New Enquiry page: a full form (name, email, phone, enquiry type, message) with a confirmation message on submit — didn't exist before.
